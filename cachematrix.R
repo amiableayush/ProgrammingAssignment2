@@ -4,7 +4,7 @@
 ## argument to cacheSolve, it either computes the inverse and sets the inverse or it takes the value of 
 ## of inverse already in the cache and returns it
 
-## Write a short comment describing this function
+
 
 makeCacheMatrix <- function(x = matrix()) {
   
@@ -21,7 +21,7 @@ list(set=set,get=get,setinverse=setinverse,getinverse=getinverse)
 }
 
 
-## Write a short comment describing this function
+
 
 cacheSolve <- function(x, ...) {
   m<-x$getinverse()
@@ -34,5 +34,5 @@ cacheSolve <- function(x, ...) {
   x$setinverse(m)
   m
 }
-        ## Return a matrix that is the inverse of 'x'
+      
   
